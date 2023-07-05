@@ -2,11 +2,11 @@ import { useState } from "react"
 
 const Header = () => {
 
-  const [ city, setCity ] = useState('');
+  // const [ city, setCity ] = useState('');
 
-  const handleInputChange = (event) => {
-    setCity(event.target.value);
-  }
+  // const handleInputChange = (event) => {
+  //   setCity(event.target.value);
+  // }
 
   return (
     <header>
