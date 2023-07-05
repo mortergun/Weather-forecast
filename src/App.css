@@ -104,6 +104,69 @@ header{
   color: var(--alt-color);
 }
 
+@media (min-width: 250px) {
+  .app_title{
+    font-size: var(--normal-font);
+    color: var(--alt-color);
+  }
+
+  .container {
+    width: 17rem;
+    margin-top: 5rem;
+  }
+
+  .icon_weather{
+    position: absolute;
+    width: 8rem;
+    top: 0;
+    right: 0rem;
+    transform: translateY(75%);
+  }
+  
+  .icon_description{
+    font-size: var(--medium-font);
+    color: var(--names-color);
+    width: 5rem;
+    top: 0;
+    position: absolute;
+    right: 2rem;
+    top: auto;
+    transform: translateY(-75%);
+  }
+}
+
+@media (min-width: 425px) {
+
+  .app_title{
+    font-size: var(--normal-font);
+    color: var(--alt-color);
+  }
+
+  .container {
+    width: 22rem;
+    margin-top: 5rem;
+  }
+
+  .icon_weather{
+    position: absolute;
+    width: 10rem;
+    top: 0;
+    right: 2rem;
+    transform: translateY(45%);
+  }
+  
+  .icon_description{
+    font-size: var(--medium-font);
+    color: var(--names-color);
+    width: 5rem;
+    top: 0;
+    position: absolute;
+    right: 5rem;
+    top: auto;
+    transform: translateY(-75%);
+  }
+}
+
 @media (min-width: 768px) {
   .app_title {
     font-size: var(--normal-font);
