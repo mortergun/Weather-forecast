@@ -47,6 +47,7 @@ header{
 .container {
   background-color: linear-gradient(180deg, #E5F2FF 0%, #D5F3FF 97.4%);
   box-shadow: 0px 4.85px 4.85px rgba(0, 0, 0, 0.25);
+  border-radius: 10% 90% 10% 30%;
   height: 13rem;
   width: 18rem;
   margin: auto;
